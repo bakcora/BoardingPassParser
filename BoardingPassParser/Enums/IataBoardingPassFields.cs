@@ -1,0 +1,52 @@
+﻿namespace BoardingPassParser.Enums
+{
+    public enum IataBoardingPassFields
+    {
+        Unknown = 0,
+        FormatCode = 1,
+        NumberOfSegments = 2,
+        PassengerName = 3,
+        ElectronicTicketIndicator = 4,
+        OperatingCarrierPnrCode = 5,
+        FromCityAirportCode = 6,
+        ToCityAirportCode = 7,
+        OperatingCarrierDesignator = 8,
+        FlightNumber = 9,
+        DateOfFlight = 10,
+        CompartmentCode = 11,
+        SeatNumber = 12,
+        CheckInSequenceNumber = 13,
+        PassengerStatus = 14,
+        ConditionalsSize = 15,
+        //conditional
+        BeginningOfVersionNumber = 16,
+        VersionNumber = 17,
+        UniqueConditionalsSize = 18,
+        PassengerDescription = 19,
+        SourceOfCheckIn = 20,
+        SourceOfBoardingPassIssuance = 21,
+        DateOfPassIssuance = 22,
+        DocumentType = 23,
+        AirlineDesignatorOfIssuer = 24,
+        BaggageTagLicensePlate = 25,
+        FirstBaggageTagLicensePlate = 26,
+        SecondBaggageTagLicensePlate = 27,
+        RepeatedConditionalsSize = 28,
+        AirlineNumericCode = 29,
+        SerialNumber = 30,
+        SelecteeIndicator = 31,
+        InternationalDocumentVerification = 32,
+        MarketingCarrierDesignator = 33,
+        FrequentFlyerAirlineDesignator = 34,
+        FrequentFlyerNumber = 35,
+        IdAdIndicator = 36,
+        FreeBaggageAllowance = 37,
+        FastTrack = 38,
+        ForAirlineUse = 39,
+        //security
+        BeginningOfSecurityData = 40,
+        TypeOfSecurityData = 41,
+        LengthOfSecurityData = 42,
+        SecurityData = 43
+    }
+}
